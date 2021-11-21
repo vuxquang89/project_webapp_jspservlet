@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+
+/*Style page login*/
+div.form-login{
+	width: 60%;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e2e2e2;
+	border-radius: 10px
+}
+
+	/* form login top*/
+	div.form-login-top{
+		position: relative;
+	}
+	
+	div.form-login-top div.box-img div.avatar{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 200px;
+		background-image: url(../media/images/img-avatar.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		border-radius: 50%;
+	}
+	
+	div.form-login-top p.x-close{
+		position: absolute;
+	    font-size: 18px;
+	    font-weight: bold;
+	    top: 0px;
+	    right: 10px;
+	    color: #969696;
+	}
+	
+	div.form-login-top div#box-msg{
+		text-align: center;
+	    padding-top: 10px;
+	    color: red;
+	    font-size: 13px;
+	}
+	
+	div#box-msg p.msg-error{
+		margin-bottom: 0px;
+	}
+	
+	/*form login body */
+	div.form-login-body{
+		margin-top: 10px;
+	}
+	
+	/* form login bottom*/
+	div.form-login-bottom{
+		background-color: #cfcfcf;
+		display: flex;
+	}
+	
+	div.form-login-bottom div.div-left{
+		width: 50%;
+		padding: 20px 10px;
+	}
+	
+	div.form-login-bottom div.div-right{
+		width: 50%;
+		text-align: right;
+		padding: 25px 10px 10px;
+	}
+	
+	
+	

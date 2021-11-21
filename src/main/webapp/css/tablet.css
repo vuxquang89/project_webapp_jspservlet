@@ -1,0 +1,49 @@
+/* Responsive layout - when the screen is less than 800px */
+@media only screen and (min-width: 768px) {
+	img.i-logo{
+		width: 100%;
+	}
+
+	.leftcolumn, .rightcolumn{
+		width: 100%;
+		padding: 0;
+	}
+
+	.leftcolumn #myCarousel div.carousel-inner div.item img{
+        height: 250px;
+    }
+
+	.rightcolumn{
+        flex-wrap: nowrap;	
+        width: 100%;
+    }
+
+	div.row-container{        
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+
+	div.row-container div.col div.col-img{
+        height: 225px;
+		line-height: 225px;
+		display: block;
+		margin-bottom: 10px;
+		overflow: hidden;
+    }
+
+	div.col div.col-img img{
+		width: 150px;
+	}
+
+	/*========footer========*/
+	div.footer-content{
+		width: 100%;
+	}
+
+	.footer div.footer-content div.col-footer form.form-email div.box-email{
+		width: 50%;
+	}
+
+	.footer div.col-footer form.form-email div.box-email input[type="text"]{
+		width: 80%;
+	}
+}
